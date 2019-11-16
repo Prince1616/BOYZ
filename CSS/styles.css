@@ -1,0 +1,115 @@
+/********Main Parent*********/
+body {
+
+		margin: 0;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-color: #e3e3e3;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 20px;
+	background-color: #b0b0b0;
+	border: 1px solid #e7e7e7;
+	top: 0;
+	right: 0px;
+	left: 0px;
+}
+
+li {
+	display: inline-block;
+	padding: 10px;
+}
+
+li:hover {
+		text-decoration: underline;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	background-color: #696969;
+	margin: 0;
+}
+/******** Heading Selectors ********/
+h1 {
+	color: white;
+	display: inline;
+	padding: 15px;
+	margin: 0;
+}
+
+h1:hover{
+	color: black;
+}
+/******* Class Selectors **********/
+.card {
+	display: inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin: 20px;	
+	text-align: center;
+	float: left;
+	width: 22%;
+
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardsbox {
+	
+}
+
+/****** Buttons *****/
+.lease_btn {
+   background: #3A403B;
+   background-image: -webkit-linear-gradient(top, #3A403B, #3B524C);
+   background-image: -moz-linear-gradient(top, #3A403B, #3B524C);
+   background-image: -ms-linear-gradient(top, #3A403B, #3B524C);
+   background-image: -o-linear-gradient(top, #3A403B, #3B524C);
+   background-image: linear-gradient(to bottom, #3A403B, #3B524C);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 45px;
+   font-weight: 200;
+   padding: 33px;
+   border-color-hover: #000000;
+   border-style-hover: solid;
+   border-width-hover: 1;
+   border-radius-hover: 20;
+   box-shadow: 1px 1px 20px 4px #000000;
+   -webkit-box-shadow: 1px 1px 20px 4px #000000;
+   -moz-box-shadow: 1px 1px 20px 4px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #000000 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.lease_btn:hover {
+   background: #000000;
+   background-image: -webkit-linear-gradient(top, #000000, #000000);
+   background-image: -moz-linear-gradient(top, #000000, #000000);
+   background-image: -ms-linear-gradient(top, #000000, #000000);
+   background-image: -o-linear-gradient(top, #000000, #000000);
+   background-image: linear-gradient(to bottom, #000000, #000000);
+   text-decoration: none;
+}
